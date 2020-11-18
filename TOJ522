@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int a;
+	cin>>a;
+	a=a*a;
+	cout<<a%10<<"\n" ;
+	return 0;
+}
+//%為除以?餘數
+//任意數除以10的餘數即為其個位數
