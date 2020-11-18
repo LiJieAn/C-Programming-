@@ -6,7 +6,7 @@ int main()
     int a;
     int b;
     cin>>a>>b;
-    cout<< "Do you want to say "<<" "<<a<<" "<<"and"<<" "<<b<<" ??\n";
+    cout<< "Do you want to say"<<" "<<a<<" "<<"and"<<" "<<b<<" "<<"??\n";
     return 0;
 }
 /*空格搞死人*/
