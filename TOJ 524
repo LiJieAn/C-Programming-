@@ -12,6 +12,7 @@ int main()
     return 0;
 }
 
+以下不知哪裡錯
 #include<stdio.h>
 
 int main()
