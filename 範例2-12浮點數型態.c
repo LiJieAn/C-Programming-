@@ -2,9 +2,9 @@
 
 int main()
 {
-	float f=123.45678f;/*¦¹¦æªº¿é¥X¤£¥¿½T ¦]¬°floatºë½T«×µLªk§¹¾ã¿é¥X¨ì8¦ì¼Æ*/
+	float f=123.45678f;/*æ­¤è¡Œçš„è¼¸å‡ºä¸æ­£ç¢º å› ç‚ºfloatç²¾ç¢ºåº¦ç„¡æ³•å®Œæ•´è¼¸å‡ºåˆ°8ä½æ•¸*/
 	double d=123.45678;
-	printf("float ÅÜ¼Æ s=%f \n",f);
-	printf("double ÅÜ¼Æ s=%f \n",d);
+	printf("float è®Šæ•¸ s=%f \n",f);/*%fï¼šæµ®é»æ•¸è¼¸å‡º*/
+	printf("double è®Šæ•¸ s=%f \n",d);
 	return 0;
 }
