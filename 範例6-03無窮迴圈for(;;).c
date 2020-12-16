@@ -3,15 +3,15 @@
 int main()
 {
 	int i=0;
-	for(;;)/*¨S¦³¥ô¦ó¹Bºâ¦¡ªºfor°j°é*/ 
+	for(;;)/*æ²’æœ‰ä»»ä½•é‹ç®—å¼çš„forè¿´åœˆ*/ 
 	{
 		i++;
 		printf("loop:%d \n",i); 
-		if(i>10) breal;/*break¦p¦P¦bswitchªº¥Îªk ±j¨î¤¤¤î¦¹°j°éªº°õ¦æ§@·~*/ 
+		if(i>10) break;/*breakå¦‚åŒåœ¨switchçš„ç”¨æ³• å¼·åˆ¶ä¸­æ­¢æ­¤è¿´åœˆçš„åŸ·è¡Œä½œæ¥­*/ 
 	}
 	return 0;
 	
  } 
- /*¦¹°j°é¤@¥¹°õ¦æ´N¤£·|¤¤¤î ¦ý¬O¥L¬O¤@­Ó¦¨¥\ªºµ{¦¡*/
- /*·í¨S¦³¿ìªk©ú½T«ü©w¦ó®É°±¤îµ{¦¡ªº°õ¦æ¡÷¦bfor°j°é¤¤¥[¤Jif§PÂ_¦¡*/ 
+ /*æ­¤è¿´åœˆä¸€æ—¦åŸ·è¡Œå°±ä¸æœƒä¸­æ­¢ ä½†æ˜¯ä»–æ˜¯ä¸€å€‹æˆåŠŸçš„ç¨‹å¼*/
+ /*ç•¶æ²’æœ‰è¾¦æ³•æ˜Žç¢ºæŒ‡å®šä½•æ™‚åœæ­¢ç¨‹å¼çš„åŸ·è¡Œâ†’åœ¨forè¿´åœˆä¸­åŠ å…¥ifåˆ¤æ–·å¼*/ 
   
