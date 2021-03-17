@@ -1,0 +1,38 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int n;
+	cin>>n;
+	int i;
+	i=1;
+	while(i<=n){
+		int j=0;
+		while(j<n-i){/*每一行的空格數=n-每一行要輸出的數字*/ 
+			cout<<" ";
+			j++;
+		}
+		int k=0;
+		while(k<i){/*是小於i 不是n 因為要輸出i 且輸出i次 */
+			cout<<i;/*是要輸出i 不是k*/ 
+			k++;
+		}
+		cout<<" ";
+		k=0;
+		while(k<i){/*是小於i 不是n 因為要輸出i 且輸出i次 */
+			cout<<i;
+			k++;
+		}
+		j=0;
+		while(j<n-i){/*每一行的空格數=n-每一行要輸出的數字*/ 
+			cout<<" ";
+			j++;
+		}
+		cout<<endl; 
+		i++;
+	}
+	return 0;
+	
+}
+/*有夠難 我自己試著+看解答花了一個小時QAQ
+還弄錯要輸出的變數 */
