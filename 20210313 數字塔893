@@ -23,11 +23,7 @@ int main()
 			cout<<i;
 			k++;
 		}
-		j=0;
-		while(j<n-i){/*每一行的空格數=n-每一行要輸出的數字*/ 
-			cout<<" ";
-			j++;
-		}
+		
 		cout<<endl; 
 		i++;
 	}
