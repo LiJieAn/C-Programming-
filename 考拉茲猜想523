@@ -1,0 +1,45 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int t;//正整數 t，代表有多少個需要處理的情形。
+	cin>>t;
+	int x,y;
+	int i=0;
+	//請問 x 從開始到停止的過程裡出現的所有數字中，第二大的是多少？
+	int max;
+	int max_2;
+	
+	while(i<t){//要輸入t組數字
+		cin>>x>>y;
+		max=x;
+		max_2=0;/*不能也設成x*/
+		/*直到 x 變成 1 時或是 x > y 時停止。
+		反面 x!=1 且 x<=y 時繼續執行*/
+		while(x!=1&&x<=y){
+		 //如果 x 是偶數，則我們將 x 除以 2
+		 //若 x 是奇數，則我們將 x 乘以 3 再加 1 
+		 	if(x%2==0){
+		 		x=x/2;
+			 } else{
+			 	x=x*3+1;
+			 }
+			//就算我今天比第一個大 那一定也比第二個大的還要大 才有可能性為答案
+			//所以先判斷有沒有比第二大的大 再來看有沒有比第一大的大 
+			if(x>max_2) {
+				if(x>max){
+					max_2=max;
+					max=x;
+				}else{
+					max_2=x;
+				}
+			}
+			 
+		}
+		i++;
+		//cout max_2要放在while(i<t)裡面 因為有t組 就要有t個max_2; 
+		cout<<max_2<<endl;
+	}
+	
+	return 0;
+}
