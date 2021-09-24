@@ -30,7 +30,8 @@
                    2. 檔案太過複雜 用 含括 的技巧將其拆解 將某些功能程式碼獨立出來 製作自己的標頭檔來含括獨立開發的檔案
                    
 */               
-/*標頭檔 路徑:C:\Program Files (x86)\Dev-cpp\MinGW64\x86_64-w64-mingw32\include  */
+/*標頭檔 路徑:C:\Program Files (x86)\Dev-cpp\MinGW64\x86_64-w64-mingw32\include
+ 打開stdio.h 內容由大量前置指令所組成 ex:#define #ifdef #else*/
 
 /**關鍵字	說明
 auto	聲明自動變量
