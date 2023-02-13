@@ -7,8 +7,8 @@ int main()
 	short x=65535; /*65535超過short允許宣告的值的範圍 造成[溢位]得到不正確的結果→-1 
 					 如果是short型態變數 指定的值超過32767 他會回到最左邊從-32768開始取值*/ 
 	unsigned short y=65535;
-	long w = 128L;		/* 'L'和'l'會告訴編譯器 我們明確指定一個long型態的數值給w和ww */
-	long ww = 128l;	
+	long w = 128L;		/* 'L'和'l'會告訴編譯器 我們明確指定一個long型態的數值給w和ww 宣告一個long型態的整數時 指定給這個數值最好同時標示L或l在字尾 */
+	long ww = 128l;		
 	printf("a:%d \n",a);
 	printf("b:%d \n",b);
 	printf("x:%d \n",x);
