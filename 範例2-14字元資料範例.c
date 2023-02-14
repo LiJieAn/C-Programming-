@@ -1,14 +1,20 @@
+#include<stdio.h>
 
+int main (){
+	char c1 =65; //65->A (ASCIIå­—å…ƒç¢¼ 
+	char c2 =90; //90->Z
+	printf("char è®Šæ•¸ c1 = %c \n",c1);
+	printf("char è®Šæ•¸ c2 = %c \n",c2);
+	return 0;
+}
 
-
-
-
-/*¦r¤¸¥H¼Æ¦rªí¥Ü ¦b¹q¸£¸Ì³Q½sÄ¶¦¨¬°¹ïÀ³ªº"¾ã¼Æ"*/
-/*¤£¦Pªº»y¨¥¤å¦r ¡÷¤£¦Pªº½s½X¨t²Î ex:ASCII*/ 
-/*ASCII:¥iª½±µ¦b«°¥«¤¤¥H¾ã¼Æªí¥Ü¯S©w¦r¤¸ 
-ASCII½Xªº¨ú­È½d³ò¬O0~127¡A¥i
-¥H¥Î7­Óbitªí¥Ü¡C
-C»y¨¥¤¤char«¬ÅÜ¼Æªº¤j¤p³W©w¬°¤@¦ì¤¸²Õ
-¡A¦pªG¦s©ñASCII½X«h¥u¥Î¨ì§C7¦ì¡A°ª¦ì¬°0 
-(¤Q¶i¦ìªk)
-A¡÷65 Z¡÷90*/ 
+//%c é¡¯ç¤ºå–®å€‹å­—å…ƒ 
+/*å­—å…ƒä»¥æ•¸å­—è¡¨ç¤º åœ¨é›»è…¦è£¡è¢«ç·¨è­¯æˆç‚ºå°æ‡‰çš„"æ•´æ•¸"*/
+/*ä¸åŒçš„èªžè¨€æ–‡å­— â†’ä¸åŒçš„ç·¨ç¢¼ç³»çµ± ex:ASCII*/ 
+/*ASCII:å¯ç›´æŽ¥åœ¨åŸŽå¸‚ä¸­ä»¥æ•´æ•¸è¡¨ç¤ºç‰¹å®šå­—å…ƒ 
+ASCIIç¢¼çš„å–å€¼ç¯„åœæ˜¯0~127ï¼Œå¯
+ä»¥ç”¨7å€‹bitè¡¨ç¤ºã€‚
+Cèªžè¨€ä¸­charåž‹è®Šæ•¸çš„å¤§å°è¦å®šç‚ºä¸€ä½å…ƒçµ„
+ï¼Œå¦‚æžœå­˜æ”¾ASCIIç¢¼å‰‡åªç”¨åˆ°ä½Ž7ä½ï¼Œé«˜ä½ç‚º0 
+(åé€²ä½æ³•)
+Aâ†’65 Zâ†’90*/ 
