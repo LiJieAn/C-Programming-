@@ -1,7 +1,11 @@
+#include<stdio.h>
+
+int main(){
+	printf("åº·å»·æ•¸ä½\twww.kangting.tw\n");  //\tè·³æ ¼ 
+	printf("åº·å»·æ•¸ä½\nwww.kangting.tw\n");  //\næ›è¡Œ 
+	return 0;
+}
 
 
-
-
-
-/*¥iª½±µ±N¸õ²æ¦r¤¸´¡¤J¦r¦ê*/ 
+/*å¯ç›´æ¥å°‡è·³è„«å­—å…ƒæ’å…¥å­—ä¸²*/ 
 
