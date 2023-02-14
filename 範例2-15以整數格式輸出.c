@@ -4,20 +4,20 @@ int main()
 {
 	char  c1='A';
 	char  c2='a';
-	printf("Aªº¦r¤¸½s½X=%d \n",c1);
-	printf("aªº¦r¤¸½s½X=%d \n",c2);
+	printf("Açš„å­—å…ƒç·¨ç¢¼=%d \n",c1);
+	printf("açš„å­—å…ƒç·¨ç¢¼=%d \n",c2);
 	return 0;
 	
  } 
 
+//A->65 Z->90 a->97
 
 
-
-/*¥i«ü©w%d¨Ó¿é¥X¯S©w¦r¤¸©Ò¹ïÀ³ªº½s½X­È
+/*å¯æŒ‡å®š%dä¾†è¼¸å‡ºç‰¹å®šå­—å…ƒæ‰€å°æ‡‰çš„ç·¨ç¢¼å€¼
 ex:
 char x ='A';
 printf("%d",x);
-¡÷±o¨ì65ªº¿é¥Xµ²ªG*/ 
-/*%c¡G¥H¦r¤¸¤è¦¡¿é¥X
-%d¡G10 ¶i¦ì¾ã¼Æ¿é¥X*/ 
-/*char	¦r¤¸(¥b§Î¦r)	Character	'a'¡B'R'¡B'1'¡B'@'¡B'*' ...*/
+â†’å¾—åˆ°65çš„è¼¸å‡ºçµæžœ*/ 
+/*%cï¼šä»¥å­—å…ƒæ–¹å¼è¼¸å‡º
+%dï¼š10 é€²ä½æ•´æ•¸è¼¸å‡º*/ 
+/*char	å­—å…ƒ(åŠå½¢å­—)	Character	'a'ã€'R'ã€'1'ã€'@'ã€'*' ...*/
